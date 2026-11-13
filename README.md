@@ -94,8 +94,8 @@ Template: [automl-research-lab](https://github.com/Kedar-V/automl-research-lab/t
 | `loop_runtime.py` | Fixed a gradient-boosting crash (sparse one-hot) and added feature scaling. Hypothesis now switches model family after one failed capacity increase |
 | Live graph | `frontend/src/graph/simpleLoopConfig.ts` updated with the new nodes |
 
-**Results:** the loop tried logistic regression (val F1 0.844 → 0.854), then random forest
-(0.860 → 0.886), then gradient boosting (0.910), and accepted the last.
+**Results:** the loop tried logistic regression (val F1 0.846 → 0.854), then random forest
+(0.859 → 0.887), then gradient boosting (0.911), and accepted the last.
 
 | Model | Holdout accuracy |
 |---|---|
