@@ -74,7 +74,7 @@ causes (1999–2020), and all-cause deaths (2021–2022).
 - In 1999–2020, drug/alcohol was the underlying cause of 6–11% of all deaths among
   American Indian/Alaska Native people, compared with 1.5–4% for White people.
 - Baseline logistic regression (predicting whether a group's overdose rate is above the
-  median): **0.869 accuracy**, vs 0.50 for always predicting the majority class.
+  median): **0.867 accuracy**, vs 0.50 for always predicting the majority class.
 
 ![DAG graph](screenshots/dag_graph.png)
 ![DAG runs](screenshots/dag_grid.png)
@@ -100,7 +100,7 @@ Template: [automl-research-lab](https://github.com/Kedar-V/automl-research-lab/t
 | Model | Holdout accuracy |
 |---|---|
 | Majority class | 0.500 |
-| Airflow baseline | 0.869 |
+| Airflow baseline | 0.867 |
 | **Agent loop (gradient boosting)** | **0.926** |
 
 Subgroup accuracy was lowest for the smallest groups: American Indian/Alaska Native 0.86

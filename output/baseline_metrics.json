@@ -1,0 +1,9 @@
+{
+  "model": "LogisticRegression (one-hot state/race/gender + year)",
+  "target": "overdose rate > median (12.7 per 100k)",
+  "n_rows": 3695,
+  "n_test": 739,
+  "majority_class_accuracy": 0.5007,
+  "accuracy": 0.8674,
+  "f1": 0.8676
+}
