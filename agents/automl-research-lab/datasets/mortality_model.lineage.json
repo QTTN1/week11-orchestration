@@ -1,0 +1,10 @@
+{
+  "target": "high_overdose",
+  "target_definition": "mcd_overdose_unintentional_rate > 12.72 (median of reliable groups)",
+  "derived_from_target": [
+    "mcd_overdose_unintentional_deaths",
+    "mcd_overdose_unintentional_rate",
+    "ucd_drug_alcohol_share"
+  ],
+  "source": "cdc_mortality_pipeline (Airflow) -> Postgres table mortality_by_group"
+}

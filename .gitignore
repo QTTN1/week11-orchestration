@@ -1,0 +1,9 @@
+data/staging/
+__pycache__/
+*.pyc
+logs/
+.env
+agents/automl-research-lab/frontend/node_modules/
+agents/automl-research-lab/.env
+agents/automl-research-lab/.venv/
+.transfer/
